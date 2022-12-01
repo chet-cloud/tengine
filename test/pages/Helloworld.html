@@ -1,0 +1,10 @@
+my id is ${data.id}
+<script>
+    module.exports = async function(){
+        return await Promise.resolve({id:1})
+    }
+</script>
+
+${fn.include_js("js/a.js")}
+
+${fn.include_js("js/a.js",true)}

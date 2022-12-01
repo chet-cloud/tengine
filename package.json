@@ -1,0 +1,26 @@
+{
+  "name": "@cchet/tengine",
+  "version": "1.0.0",
+  "description": "template engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "author": "Chet",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "gray-matter": "^4.0.3",
+    "lodash": "^4.17.21",
+    "require-from-string": "^2.0.2"
+  },
+  "devDependencies": {
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "test/*",
+      "out/*"
+    ],
+    "delay": 2500
+  }
+}

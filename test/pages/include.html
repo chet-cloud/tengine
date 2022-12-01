@@ -1,0 +1,17 @@
+---
+layout: test/pages/_base
+---
+my id is ${data.id}
+<script>
+    module.exports = function(data){
+        return {...data,id:2}
+    }
+</script>
+
+== this is the include file
+${fn.include("test/pages/_fragment","ccccccccc")}
+
+
+
+++ this is another include file
+${fn.map("test/pages/_fragment",["cc","ff"])}

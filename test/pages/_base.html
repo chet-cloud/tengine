@@ -1,0 +1,14 @@
+
+<script server="true">
+    module.exports = function({content}){
+        return {menus:['a','b','c','d','e'],content}
+        // or return Promise.resolve({menus:['a','b','c','d','e'],content})
+    }
+</script>
+
+${data.menus.map(m=>`--[${m}]--`)}
+
+
+===================
+${data.content}
+===================
