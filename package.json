@@ -1,6 +1,6 @@
 {
   "name": "@cchet/tengine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "template engine",
   "main": "index.js",
   "scripts": {
